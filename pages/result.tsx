@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { personalityData } from "./personalityData";
+import { personalityData } from "../lib/personalityData";
 
 export default function ResultPage() {
   const router = useRouter();

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
-import { questions } from "./data";
+import { questions } from "../lib/data";
 
 export default function QuizPage() {
   const router = useRouter();
