@@ -229,6 +229,21 @@ export default function Home() {
               开启命运旅程
             </button>
           </Link>
+          
+          {/* 底部备注 - 小小小字 */}
+          <div
+            style={{
+              marginTop: "24px",
+              textAlign: "center",
+              fontSize: "10px",
+              color: "rgba(255,255,255,0.3)",
+              lineHeight: "1.8",
+            }}
+          >
+            <div>本测试平台测试为免费，仅供娱乐</div>
+            <div>本平台主创团队小红书账号1420276335，请搜索“东方人格”</div>
+            <div>皮影设计参考为《陕西皮影珍赏》，设计语言参考摇醒实验室</div>
+          </div>
         </div>
       </div>
     </div>
